@@ -1,0 +1,382 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.header {
+    height:150px;
+    width: 100%;
+    background-image: url(./imagenes/fondo.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(min-width: 960px){
+    .header {
+        height: 200px;
+        background-size: 100% 100%;
+    }
+}
+
+.header__nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 10px;
+margin: 0;
+}
+@media(min-width: 960px){
+    .header__nav {
+    padding:0 20px;
+    }
+}
+
+.header__nav-logo {
+
+}
+
+.header__img-logo {
+    width: 122px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+@media(min-width: 960px){
+  .header__img-logo {
+      width: 197px;
+  }
+}
+
+.header__open-menu, 
+.header__close-menu {
+border: none;
+background: none;
+display: block;
+cursor: pointer;
+}
+@media(min-width: 960px){
+    .header__open-menu, 
+    .header__close-menu {
+        display: none;
+    }
+}
+
+.header__open {
+}
+@media(min-width: 960px){
+    .header__open {
+        display: none;
+    }
+}
+
+.header__close-menu {
+    align-self: flex-end;
+    padding: 40px 0px;
+    position:absolute;
+    left: 50;
+    top: 0;
+    bottom: 50;
+    right: 0;
+   width: 50px;
+}
+
+.header__close {
+ background-color: #062424;   
+}
+
+.header__open {
+width: 36px;
+}
+
+.header__menu {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+align-items: center;
+background-color:#062424;
+height: 667px;
+opacity: 0;
+font-family: "Montserrat";
+font-size: 48px;
+font-weight: 700;
+list-style: none;
+margin: 0;
+padding: 0;
+pointer-events: none;
+transition: 0.3s;
+}
+@media(min-width: 960px){
+    .header__menu {
+    flex-direction: row;
+    height: 200px;
+    justify-content:flex-end;
+    padding: 0 40px;
+    padding: 0;
+    opacity: 1;    
+    background:none;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 400;
+    pointer-events: all;
+    color:#062424;
+    position: relative;
+}
+}
+
+.header__menu li {
+    padding: 0;
+    margin-top: 30px;
+}
+@media(min-width: 960px){
+    .header__menu li {
+        padding: 0 20px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color:#335940;
+}
+
+
+.header__menu a:hover {
+    background-color:#DBA4A4;
+    border-radius: 5px;
+}
+
+.header__menu-opened {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+.header__open-menu:focus:not(:focus-visible), 
+.header__close-menu:focus:not(:focus-visible){
+    outline: none;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.cont-sec-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 200px 0;
+    margin: 0;
+}
+@media(min-width: 960px){
+    .cont-sec-one {
+        padding:100px 0;
+    }
+}
+
+.title-main {
+    font-family:"Montserrat"; 
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #062424;
+    margin: 0;
+    padding: 0;
+}
+
+
+.text-main {
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #062424;
+    margin-top: 11px;
+    padding: 0;
+}
+
+.form__section {
+    height: 700px;
+    width: 100%;
+    background-image: url(./imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:#062424;
+    }
+@media(min-width: 960px){
+    .form__section {
+   height:902px;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    padding:100px 385px;
+    margin: 0;
+    }
+}
+    
+.form__cont {}
+    @media(min-width: 960px){
+    .form__cont {
+     flex-grow: 1;
+    }
+}
+    
+    
+.form__contact {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+ }
+@media(min-width: 960px){
+    .form__contact {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    }
+}
+    
+.form__title {
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 70px;
+}
+@media(min-width: 960px){
+    .form__title {
+    padding: 0;
+    margin-right: 80px;
+    }
+}
+    
+.form__label {
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+    
+.form__input {
+    min-width: 335px;
+    height: 45px;
+    border:solid 3px #2C2C2C;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 20px;
+}
+@media(min-width: 960px){
+    .form__input {
+        min-width: 376px;
+        height: 45px;
+    }
+}
+
+    
+.form__input-textarea {
+    min-width: 335px;
+    height: 113px;
+    border: solid 3px #2C2C2C;
+}
+@media(min-width: 960px){
+    .form__input-textarea {
+        min-width: 376px;
+    }
+}
+    
+.form__submit-cont {
+}
+    
+.form__submit-button {
+    margin-top: 60px;
+    min-width:335px;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 700;
+    background-color:#062424;
+    color:white;
+}
+@media(min-width: 960px){
+    .form__submit-button {
+        min-width: 376px;
+    }
+} 
+
+.footer {
+    background-color:#062424;
+    height: 498px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 147px 89px;
+}
+@media(min-width: 960px){
+    .footer {
+        height: 346px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 80px;
+    }
+}
+
+.footer__cont-redes {
+    width: 150px;
+    height: 250px;
+}
+@media(min-width:960px){
+    .footer__cont-redes {
+        margin-top: 100px;
+    }
+}
+
+.footer__title {
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+margin-top:5px;
+padding: 0;
+display: inline-block;
+text-align: center;
+color:white;
+}
+@media(min-width: 960px){
+    .footer__title {
+     justify-content: left;
+    }
+}
+
+.footer__imagen-instagram {
+width: 27px;
+height: 27px;
+vertical-align:middle;
+}
+@media(min-width: 960px){
+
+}
+
+.footer__imagen-linkedin {
+width: 27px;
+height: 27px;
+vertical-align:middle;
+}
+
+.footer__imagen-github {
+width: 27px;
+height: 27px;
+vertical-align: middle;
+}

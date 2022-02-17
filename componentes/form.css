@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.form__section {
+    height: 660px;
+    width: 100%;
+    background-color: #062424;
+    color: white;
+    }
+    @media(min-width: 960px){
+        .form__section {
+          display: flex;
+          justify-content: center;
+          padding:100px;
+        }
+    }
+    
+    .form__cont {}
+    @media(min-width: 960px){
+        .form__cont {
+         display: flex;
+         max-width: 900px;
+        }
+    }
+    
+    
+    .form__contact {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    @media(min-width: 960px){
+        .form__contact {
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        }
+    }
+    
+    .form__title {
+        font-family: "Montserrat";
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+        padding: 70px;
+    }
+    @media(min-width: 960px){
+        .form__title {
+            padding: 0;
+            margin-right: 80px;
+        }
+    }
+    
+    .form__label {
+        font-family: "Poppins";
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    .form__input {
+        min-width: 335px;
+        height: 45px;
+        border:solid 3px #2C2C2C;
+        border-radius: 4px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    .form__input-textarea {
+        min-width: 335px;
+        height: 113px;
+    }
+    
+    .form__submit-cont {
+    
+    }
+    
+    .form__submit-button {
+        margin-top: 60px;
+       min-width:335px;
+       padding: 10px;
+       border-radius: 4px;
+       font-family: "Poppins";
+       font-size: 16px;
+       font-weight: 700;
+       background-color:#335940;
+       color:white;
+    }
+    

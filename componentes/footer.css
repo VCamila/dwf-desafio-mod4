@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.footer {
+    background-color:#335940;
+    height: 498px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 147px 89px;
+}
+@media(min-width: 960px){
+    .footer {
+        height: 346px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 80px;
+    }
+}
+
+.footer__cont-redes {
+    width: 150px;
+    height: 250px;
+}
+@media(min-width:960px){
+    .footer__cont-redes {
+        margin-top: 100px;
+    }
+}
+
+.footer__title {
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+margin-top:5px;
+padding: 0;
+display: inline-block;
+text-align: center;
+}
+@media(min-width: 960px){
+    .footer__title {
+     justify-content: left;
+    }
+}
+
+.footer__imagen-instagram {
+width: 27px;
+height: 27px;
+vertical-align:middle;
+}
+@media(min-width: 960px){
+
+}
+
+.footer__imagen-linkedin {
+width: 27px;
+height: 27px;
+vertical-align:middle;
+}
+
+.footer__imagen-github {
+width: 27px;
+height: 27px;
+vertical-align: middle;
+}
