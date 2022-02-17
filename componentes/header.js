@@ -7,14 +7,14 @@ function componenteHeader(element){
     <header class="header">
       <nav class="header__nav">
         <a href="#" class="header__nav-logo">
-          <img src="./imagenes/logo .png" class="header__img-logo" alt=""/>
+          <img src="./img/logo.png" class="header__img-logo" alt=""/>
         </a>
         <button class="header__open-menu" aria-label="Abrir menú">
-          <img src="./imagenes/barra-de-menus.png" class="header__open" alt="abrir-menu"/>
+          <img src="./img/menus.png" class="header__open" alt="abrir-menu"/>
         </button>
       <ul class="header__menu">
         <button class="header__close-menu" aria-label="Cerrar menú">
-          <img src="./imagenes/Vector (1).png" class="header__close" alt="cerrar-menu"/>
+          <img src="./img/Vector.png" class="header__close" alt="cerrar-menu"/>
         </button>
        <li><a href="Portfolio"> Portfolio</a></li>
        <li><a href="Servicios"> Servicios</a></li>

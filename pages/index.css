@@ -10,7 +10,7 @@ body {
 .header {
     height:667px;
     width: 100%;
-    background-image:url("../imagenes/fondo.png");
+    background-image:url("../img/fondo.png");
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -286,7 +286,7 @@ margin-top: 50px;
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url("./Imagenes/fondo.png");
+    background-image: url("../img/fondo.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -419,7 +419,7 @@ margin-top: 50px;
 .form__section {
 height: 660px;
 width: 100%;
-background-image: url("../imagenes/fondo.png");
+background-image: url("../img/fondo.png");
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
