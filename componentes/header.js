@@ -16,9 +16,9 @@ function componenteHeader(element){
         <button class="header__close-menu" aria-label="Cerrar menú">
           <img src="./img/Vector.png" class="header__close" alt="cerrar-menu"/>
         </button>
-       <li><a href="Portfolio"> Portfolio</a></li>
-       <li><a href="Servicios"> Servicios</a></li>
-       <li><a href="Contacto"> Contacto</a></li>
+       <li><a href="./portfolio.html"> portfolio</a></li>
+       <li><a href="./servicios.html"> servicios</a></li>
+       <li><a href="./contacto.html"> contacto</a></li>
       </ul>
     </nav>
     </header>
