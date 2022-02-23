@@ -16,6 +16,4 @@ closeMenuEl.addEventListener("click", toggleMenu);*/
     componenteServicios(document.querySelector(".subcontenedor-sec-tres"));
 })();
 
-main();
-
 
