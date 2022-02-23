@@ -1,0 +1,134 @@
+.section-three {
+    height: 1375px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/fondo.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(min-width: 960px){
+    .section-three {
+        height: 100px;
+    }
+}
+
+.title-sec-three {
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 70px 52px;
+}
+
+.subcontenedor-sec-tres {
+    display: grid;
+    grid-template-rows: 40% 40% 40%;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+@media(min-width: 960px){
+    .subcontenedor-sec-tres {
+        display: flex;
+ }
+}
+
+.img-sec-tres {
+}
+@media(min-width: 960px){
+    .img-sec-tres {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.imagen-serv {
+    width: 138px;
+    max-height: 128px;
+    margin-left: 118px;
+}
+@media(min-width: 960px){
+    .imagen-serv {
+        margin:0;
+        padding: 0;
+    }
+}
+
+.title-serv-tecnico {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin:0;
+}
+
+.parrafo-serv-tec {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 56px;
+    margin: 0;
+}
+
+.imagen-aparatos-aud {
+width: 138px;
+height: 128px;
+margin-left: 118px;
+}
+@media(min-width: 960px){
+    .imagen-aparatos-aud {
+    margin: 0;
+    padding: 0;
+    }
+}
+
+.title-proveedor {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.parrafo-aparatos {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 56px;
+    margin: 0;
+}
+
+.imagen-accesorios {
+    width: 138px;
+    height: 128px;
+    margin-left: 118px;
+}
+@media(min-width: 960px){
+    .imagen-accesorios {
+        margin:0;
+        padding: 0;
+    }
+}
+
+.title-accesorios {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.parrafo-accesorios {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 56px;
+    margin: 0;
+}

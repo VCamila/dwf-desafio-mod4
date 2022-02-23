@@ -359,9 +359,9 @@ margin-top: 50px;
 }
 
 .imagen-aparatos-aud {
-    width: 138px;
- height: 128px;
- margin-left: 118px;
+width: 138px;
+height: 128px;
+margin-left: 118px;
 }
 @media(min-width: 960px){
     .imagen-aparatos-aud {
@@ -423,10 +423,9 @@ background-image: url("../img/fondo.png");
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
-/*background-color: #062424;*/
-color:#062424;
-border: double 3px #062424;
-border-radius: 4px;
+    color:#062424;
+    border: double 3px #062424;
+    border-radius: 4px;
 }
 @media(min-width: 960px){
     .form__section {
@@ -443,7 +442,6 @@ border-radius: 4px;
     flex-grow: 1;
     }
 }
-
 
 .form__contact {
     display: flex;
