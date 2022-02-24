@@ -14,6 +14,8 @@ body {
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    margin:0;
+    padding:0;
 }
 @media(min-width: 960px){
     .header {
@@ -226,17 +228,26 @@ background-image: url("../img/fondo.png");
 }
 
 .section-three {
-    height: 1375px;
+    height: 1200px;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     background-image: url("../img/fondo.png");
    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: double 3px #062424;
+    border-radius:5px;
+    
 }
 @media(min-width: 960px){
     .section-three {
+        display: flex;
+        flex-direction: row;
         height: 604px;
     }
 }
@@ -251,39 +262,22 @@ background-image: url("../img/fondo.png");
 }
 
 .subcontenedor-sec-tres {
-    display: grid;
-    grid-template-rows: 40% 40% 40%;
-    gap:20px;
-    justify-content: center;
-    align-items: center;
-}
-@media(min-width: 960px){
-    .subcontenedor-sec-tres {
-        display: flex;
- }
 }
 
 .img-sec-tres {
-}
-@media(min-width: 960px){
-    .img-sec-tres {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+display: flex;
+align-items: center;
+justify-content: center;
+margin:0;
+padding:0;
 }
 
-.imagen-serv {
-    width: 138px;
-    max-height: 128px;
-    margin-left: 118px;
+
+.imagen {
+    width: 290px;
+    max-height: 170px;
 }
-@media(min-width: 960px){
-    .imagen-serv {
-        margin:0;
-        padding: 0;
-    }
-}
+
 
 .title-serv-tecnico {
     font-family: "Poppins";
@@ -302,17 +296,12 @@ background-image: url("../img/fondo.png");
     margin: 0;
 }
 
-.imagen-aparatos-aud {
-width: 138px;
-height: 128px;
-margin-left: 118px;
+
+.imagen-aparatos-aud{
+width: 290px;
+max-height: 170px;
 }
-@media(min-width: 960px){
-    .imagen-aparatos-aud {
-    margin: 0;
-    padding: 0;
-    }
-}
+
 
 .title-proveedor {
     font-family: "Poppins";
@@ -332,15 +321,8 @@ margin-left: 118px;
 }
 
 .imagen-accesorios {
-    width: 138px;
-    height: 128px;
-    margin-left: 118px;
-}
-@media(min-width: 960px){
-    .imagen-accesorios {
-        margin:0;
-        padding: 0;
-    }
+    width: 290px;
+    max-height: 170px;
 }
 
 .title-accesorios {

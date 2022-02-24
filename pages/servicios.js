@@ -2,7 +2,7 @@ function addComponentes(){
     const headerEl = document.querySelector(".header__cont");
     componenteHeader(headerEl);
     
-    const serviciosEl = document.querySelector(".subcontenedor-sec-tres");
+    const serviciosEl = document.querySelector(".section-three");
     componenteServicios(serviciosEl);
     
     const footerEl = document.querySelector(".footer__cont");
@@ -13,11 +13,11 @@ addComponentes();
 
 function addServicesCards(params = {}){
     const template = document.querySelector("#template-servicios");
-    const container = document.querySelector(".subcontenedor-sec-tres");
+    const container = document.querySelector(".section-three");
     
     template.content.querySelector(".title-serv-tecnico").textContent = params.title;
     template.content.querySelector(".parrafo-serv-tec").textContent = params.parrafo;
-    template.content.querySelector(".imagen-serv").src = params.imagen;
+    template.content.querySelector(".imagen").src = params.imagen;
     
     const clone = document.importNode(template.content, true);
     container.appendChild(clone);
@@ -28,25 +28,23 @@ function getServices(){
         return response.json();
     }).then((data) => {
         const fieldsCollections = data.items.map((item) => {
-        const imagenId = item.fields.preview.sys.id;
+        const imagenId = item.fields.imagen.sys.id;
         const image = imagenData(imagenId, data);
-        const imagenLink = image.fields.file.url; 
 
           return {
               title: item.fields.nombre,
               parrafo: item.fields.texto,
-              imagen: imagenLink,
+              imagen: image.fields.file.url,
           }
         });
         return fieldsCollections;
     });
 }
     
-function imagenData(id, data){
-   const imagen =  data.includes.Asset.find((asset) => {
-       return asset.sys.id = id;
+function imagenData(id, json){
+   return  json.includes.Asset.find((item) => {
+       return item.sys.id = id;
     });
-    return imagen;
 }
     
 function main(){

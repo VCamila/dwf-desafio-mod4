@@ -24,15 +24,17 @@
 }
 
 .subcontenedor-sec-tres {
-    display: grid;
-    grid-template-rows: 40% 40% 40%;
-    gap:20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+   gap:10px;
     justify-content: center;
     align-items: center;
+    
 }
 @media(min-width: 960px){
     .subcontenedor-sec-tres {
-        display: flex;
+       display: flex;
+        height:600px;
  }
 }
 
