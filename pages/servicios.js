@@ -43,7 +43,7 @@ function getServices(){
     
 function imagenData(id, json){
    return  json.includes.Asset.find((item) => {
-       return item.sys.id = id;
+       return item.sys.id == id;
     });
 }
     

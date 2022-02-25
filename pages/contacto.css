@@ -120,7 +120,6 @@ transition: 0.3s;
     height: 200px;
     justify-content:flex-end;
     padding: 0 40px;
-    padding: 0;
     opacity: 1;    
     background:none;
     font-family: "Poppins";
@@ -139,6 +138,7 @@ transition: 0.3s;
 @media(min-width: 960px){
     .header__menu li {
         padding: 0 20px;
+        margin:0;
     }
 }
 
