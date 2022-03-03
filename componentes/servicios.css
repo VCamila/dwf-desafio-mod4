@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media(min-width: 960px){
+@media(min-width: 769px){
     .section-three {
         height: 100px;
     }
@@ -26,12 +26,11 @@
 .subcontenedor-sec-tres {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-   gap:10px;
-    justify-content: center;
-    align-items: center;
-    
+  gap:10px;
+  justify-content: center;
+  align-items: center;   
 }
-@media(min-width: 960px){
+@media(min-width: 769px){
     .subcontenedor-sec-tres {
        display: flex;
         height:600px;
@@ -40,7 +39,7 @@
 
 .img-sec-tres {
 }
-@media(min-width: 960px){
+@media(min-width: 769px){
     .img-sec-tres {
         display: flex;
         align-items: center;
@@ -53,7 +52,7 @@
     max-height: 128px;
     margin-left: 118px;
 }
-@media(min-width: 960px){
+@media(min-width: 769px){
     .imagen-serv {
         margin:0;
         padding: 0;
@@ -82,7 +81,7 @@ width: 138px;
 height: 128px;
 margin-left: 118px;
 }
-@media(min-width: 960px){
+@media(min-width: 769px){
     .imagen-aparatos-aud {
     margin: 0;
     padding: 0;
@@ -111,7 +110,7 @@ margin-left: 118px;
     height: 128px;
     margin-left: 118px;
 }
-@media(min-width: 960px){
+@media(min-width: 769px){
     .imagen-accesorios {
         margin:0;
         padding: 0;

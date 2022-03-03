@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     padding: 147px 89px;
 }
-@media(min-width: 960px){
+@media(min-width: 769px){
     .footer {
         height: 346px;
         flex-direction: row;
@@ -29,7 +29,7 @@ body {
     width: 150px;
     height: 250px;
 }
-@media(min-width:960px){
+@media(min-width:769px){
     .footer__cont-redes {
         margin-top: 100px;
     }
@@ -44,7 +44,7 @@ padding: 0;
 display: inline-block;
 text-align: center;
 }
-@media(min-width: 960px){
+@media(min-width: 769px){
     .footer__title {
      justify-content: left;
     }
@@ -54,9 +54,6 @@ text-align: center;
 width: 27px;
 height: 27px;
 vertical-align:middle;
-}
-@media(min-width: 960px){
-
 }
 
 .footer__imagen-linkedin {
