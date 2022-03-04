@@ -5,94 +5,118 @@
 body {
     margin: 0;
 }
-
+    
 .form__section {
     height: 660px;
     width: 100%;
-    background-color: #062424;
-    color: white;
-    }
-@media(min-width: 769px){
-    .form__section {
-    display: flex;
-    justify-content: center;
-    padding:100px;
-    background-image:url("../imagenes/fondo.png");
+    background-image: url("../img/fondo.png");
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    color:#062424;
+    border: double 3px #062424;
+    border-radius: 4px;
+}
+@media(min-width: 769px){
+        .form__section {
+            display: flex;
+            justify-content: space-between;
+            padding: 90px 250px;
+            height: 800px;
+            width: 1446px;
     }
 }
     
 .form__cont {}
 @media(min-width: 769px){
- .form__cont {
-    display: flex;
-    max-width: 900px;
+    .form__cont {
+        flex-grow:1;
     }
 }
-    
+
 .form__contact {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 }
 @media(min-width: 769px){
     .form__contact {
-    padding: 0;
-    margin: 0;
-    align-items: center;
+        justify-content: flex-start;    
+         align-items: center;
+         margin:0;
     }
 }
     
 .form__title {
-    font-family: "Montserrat";
-    font-size: 32px;
-    font-weight: 700;
-    text-align: center;
-    margin: 0;
-    padding: 70px;
+        font-family: "Montserrat";
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+        padding: 70px;
 }
-@media(min-width: 769px){
-   .form__title {
-    padding: 0;
-    margin-right: 80px;
+ @media(min-width: 769px){
+        .form__title {
+        padding:0;
+        position: relative; 
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 50%;
+    
     }
 }
     
 .form__label {
-    font-family: "Poppins";
-    font-size: 13px;
-    font-weight: 400;
-    margin: 0;
+        font-family: "Poppins";
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0;
 }
     
 .form__input {
-    min-width: 335px;
-    height: 45px;
-    border:solid 3px #2C2C2C;
-    border-radius: 4px;
-    display: block;
-    margin-bottom: 20px;
+        min-width: 335px;
+        height: 45px;
+        border:solid 3px #2C2C2C;
+        border-radius: 4px;
+        display: block;
+        margin-bottom: 20px;
+}
+@media(min-width: 769px){
+        .form__input {
+            min-width: 376px;
+            margin:0;
+    } 
 }
     
 .form__input-textarea {
-    min-width: 335px;
-    height: 113px;
+        min-width: 335px;
+        height: 113px;
+        border: solid 3px #2C2C2C;
 }
+@media(min-width: 769px){
+        .form__input-textarea {
+            min-width: 376px;
+    }
+ }
     
-.form__submit-cont {
-}
+.form__submit-cont {}
     
 .form__submit-button {
-    margin-top: 60px;
-    min-width:335px;
-    padding: 10px;
-    border-radius: 4px;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 700;
-    background-color:#335940;
-    color:white;
+        margin-top: 60px;
+       min-width:335px;
+       padding: 10px;
+       border-radius: 4px;
+       font-family: "Poppins";
+       font-size: 16px;
+       font-weight: 700;
+       background-color:#062424;
+       color:white;
+}
+@media(min-width: 769px){
+        .form__submit-button {
+            min-width: 376px;
+    }
 }
     

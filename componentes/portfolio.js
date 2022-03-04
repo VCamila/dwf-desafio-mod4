@@ -5,7 +5,6 @@ newComponentePortfolio.querySelector(".section-portfolio");
 
 newComponentePortfolio.innerHTML = 
 `
-<h1 class="title-port"> Portfolio</h1>
 <template id="portfolio-template">
 <div class="portfolio-content"> 
 <div class="port-cards"> 
