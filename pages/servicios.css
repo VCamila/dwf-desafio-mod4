@@ -33,7 +33,6 @@ margin: 0;
 }
 @media(min-width: 769px){
     .header__nav {
-    padding:0 20px;
     }
 }
 
@@ -117,7 +116,6 @@ transition: 0.3s;
     flex-direction: row;
     height: 200px;
     justify-content:flex-end;
-    padding: 0 40px;
     opacity: 1;    
     background:none;
     font-family: "Poppins";
