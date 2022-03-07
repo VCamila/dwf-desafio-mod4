@@ -3,17 +3,17 @@
 }
 
 body {
-    margin: 0;
-    font-family: "Montserrat";
+margin: 0;
+font-family: "Montserrat";
 }
 
 .header {
-    height:667px;
-    width: 100%;
-    background-image: url("./img/fondo.png");
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+height:667px;
+width: 100%;
+background-image: url("./img/fondo.png");
+background-attachment:fixed;
+background-repeat: no-repeat;
+background-size: cover;
 }
 @media(min-width: 769px){
     .header {
@@ -35,14 +35,13 @@ margin: 0;
     }
 }
 
-.header__nav-logo {
-}
+.header__nav-logo {}
 
 .header__img-logo {
-    width: 122px;
-    display: flex;
-    align-items: center;
-    margin: 0;
+width: 122px;
+display: flex;
+align-items: center;
+margin: 0;
 }
 @media(min-width: 769px){
   .header__img-logo {
@@ -64,8 +63,7 @@ cursor: pointer;
     }
 }
 
-.header__open {
-}
+.header__open {}
 @media(min-width: 769px){
     .header__open {
         display: none;
@@ -73,18 +71,18 @@ cursor: pointer;
 }
 
 .header__close-menu {
-    align-self: flex-end;
-    padding: 40px 0px;
-    position:absolute;
-    left: 50;
-    top: 0;
-    bottom: 50;
-    right: 0;
-   width: 50px;
+align-self: flex-end;
+padding: 40px 0px;
+position:absolute;
+left: 50;
+top: 0;
+bottom: 50;
+right: 0;
+width: 50px;
 }
 
 .header__close {
- background-color: #062424;   
+background-color: #062424;   
 }
 
 .header__open {
@@ -100,7 +98,6 @@ position: fixed;
 left: 0;
 top: 0;
 width: 100%;
-align-items: center;
 background-color:#062424;
 height: 667px;
 opacity: 0;
@@ -115,10 +112,9 @@ transition: 0.3s;
 }
 @media(min-width: 769px){
     .header__menu {
-    flex-direction: row;
     height: 200px;
+    flex-direction: row;
     justify-content:flex-end;
-    padding: 0 40px;
     padding: 0;
     opacity: 1;    
     background:none;
@@ -128,12 +124,12 @@ transition: 0.3s;
     pointer-events: all;
     color:#062424;
     position: relative;
-}
+ }
 }
 
 .header__menu li {
-    padding: 0;
-    margin-top: 30px;
+padding: 0;
+margin-top: 30px;
 }
 @media(min-width: 769px){
     .header__menu li {
@@ -142,21 +138,21 @@ transition: 0.3s;
 }
 
 a {
-    text-decoration: none;
-    color:#335940;
+text-decoration: none;
+color:#335940;
 }
 
 .header__menu a:hover {
-    background-color:#DBA4A4;
-    border-radius: 5px;
+background-color:#DBA4A4;
+border-radius: 5px;
 }
 
 .header__menu-opened {
-    opacity: 1;
-    pointer-events: all;
+opacity: 1;
+pointer-events: all;
 }
 
 .header__open-menu:focus:not(:focus-visible), 
 .header__close-menu:focus:not(:focus-visible){
-    outline: none;
+outline: none;
 }

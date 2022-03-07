@@ -1,9 +1,9 @@
 function componenteFooter(element){
-    const newComponenteFooter = document.createElement("div");
-    newComponenteFooter.querySelector(".footer__cont");
+const newComponenteFooter = document.createElement("div");
+newComponenteFooter.querySelector(".footer__cont");
     
-    newComponenteFooter.innerHTML = 
-    `
+newComponenteFooter.innerHTML = 
+  `
     <footer class="footer">
       <img src="./img/logo.png" alt="logo" class="footer__imagen-logo">
       <div class="footer__cont-redes">
@@ -15,8 +15,7 @@ function componenteFooter(element){
           <img class="footer__imagen-github" src="./img/github.png" alt="github">
       </div>
     </footer>
-    `
+  `
     
-    element.appendChild(newComponenteFooter);
-    
+element.appendChild(newComponenteFooter);    
 }

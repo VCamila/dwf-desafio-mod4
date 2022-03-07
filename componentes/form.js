@@ -1,9 +1,9 @@
 function componenteForm(element){
-    const newComponenteForm = document.createElement("div");
-    newComponenteForm.querySelector(".form__cont");
+const newComponenteForm = document.createElement("div");
+newComponenteForm.querySelector(".form__cont");
     
-    newComponenteForm.innerHTML = 
-    `
+newComponenteForm.innerHTML = 
+ `
     <section class="form__section">
       <div class="form__cont">   
       <h1 class="form__title"> Escribime </h1>
@@ -27,10 +27,10 @@ function componenteForm(element){
           </form>
       </div>
     </section>
-    `
+`
     
-    element.appendChild(newComponenteForm);
-    formEvent();
+element.appendChild(newComponenteForm);
+formEvent();
 }
 
 function formEvent(){

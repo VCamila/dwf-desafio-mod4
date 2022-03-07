@@ -6,6 +6,7 @@ newComponentePortfolio.querySelector(".section-portfolio");
 newComponentePortfolio.innerHTML = 
 `
 <template id="portfolio-template">
+<div class="container">
 <div class="portfolio-content"> 
 <div class="port-cards"> 
 <img src="https://escucharahoraysiempre.com/wp-content/uploads/2019/03/implante-coclear1.png" class="portfolio-imagen" alt=""/>     
@@ -14,6 +15,7 @@ newComponentePortfolio.innerHTML =
     <a href="https://apx.school/" class="portfolio-link"> Ver más</a>
     </div>
   </div>
+</div>
 </template>
 `
 

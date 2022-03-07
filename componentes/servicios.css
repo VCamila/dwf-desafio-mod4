@@ -2,19 +2,15 @@
     box-sizing: border-box;
 }
 
-body {
-    margin:0;
-}
-
 .section-three {
-    height: 1375px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-image: url("../img/fondo.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+height: 1375px;
+width: 100%;
+margin: 0;
+padding: 0;
+background-image: url("../img/fondo.png");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
 }
 @media(min-width: 769px){
     .section-three {
@@ -23,20 +19,20 @@ body {
 }
 
 .title-sec-three {
-    font-family: "Montserrat";
-    font-size: 32px;
-    font-weight: 700;
-    text-align: center;
-    margin: 0;
-    padding: 70px 52px;
+font-family: "Montserrat";
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+margin: 0;
+padding: 70px 52px;
 }
 
 .subcontenedor-sec-tres {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap:10px;
-  justify-content: center;
-  align-items: center;   
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+gap:10px;
+justify-content: center;
+align-items: center;   
 }
 @media(min-width: 769px){
     .subcontenedor-sec-tres {
@@ -45,8 +41,7 @@ body {
  }
 }
 
-.img-sec-tres {
-}
+.img-sec-tres {}
 @media(min-width: 769px){
     .img-sec-tres {
         display: flex;
@@ -56,9 +51,9 @@ body {
 }
 
 .imagen-serv {
-    width: 138px;
-    max-height: 128px;
-    margin-left: 118px;
+width: 138px;
+max-height: 128px;
+margin-left: 118px;
 }
 @media(min-width: 769px){
     .imagen-serv {
@@ -68,20 +63,20 @@ body {
 }
 
 .title-serv-tecnico {
-    font-family: "Poppins";
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    margin:0;
+font-family: "Poppins";
+font-size: 24px;
+font-weight: 700;
+text-align: center;
+margin:0;
 }
 
 .parrafo-serv-tec {
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    padding: 0 56px;
-    margin: 0;
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+padding: 0 56px;
+margin: 0;
 }
 
 .imagen-aparatos-aud {
@@ -97,26 +92,26 @@ margin-left: 118px;
 }
 
 .title-proveedor {
-    font-family: "Poppins";
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    margin: 0;
+font-family: "Poppins";
+font-size: 24px;
+font-weight: 700;
+text-align: center;
+margin: 0;
 }
 
 .parrafo-aparatos {
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    padding: 0 56px;
-    margin: 0;
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+padding: 0 56px;
+margin: 0;
 }
 
 .imagen-accesorios {
-    width: 138px;
-    height: 128px;
-    margin-left: 118px;
+width: 138px;
+height: 128px;
+margin-left: 118px;
 }
 @media(min-width: 769px){
     .imagen-accesorios {
@@ -126,18 +121,18 @@ margin-left: 118px;
 }
 
 .title-accesorios {
-    font-family: "Poppins";
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    margin: 0;
+font-family: "Poppins";
+font-size: 24px;
+font-weight: 700;
+text-align: center;
+margin: 0;
 }
 
 .parrafo-accesorios {
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    padding: 0 56px;
-    margin: 0;
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+padding: 0 56px;
+margin: 0;
 }

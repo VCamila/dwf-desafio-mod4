@@ -1,20 +1,19 @@
 * {
     box-sizing: border-box;
-    margin:0 auto;
 }
 
 body {
-    margin: 0;
-    font-family: "Montserrat";
+margin: 0;
+font-family: "Montserrat";
 }
 
 .header {
-    height:150px;
-    width: 100%;
-    background-image: url("../img/fondo.png");
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+height:150px;
+width: 100%;
+background-image: url("../img/fondo.png");
+background-attachment:fixed;
+background-repeat: no-repeat;
+background-size: cover;
 }
 @media(min-width: 769px){
     .header {
@@ -36,15 +35,13 @@ margin: 0;
     }
 }
 
-.header__nav-logo {
-
-}
+.header__nav-logo {}
 
 .header__img-logo {
-    width: 122px;
-    display: flex;
-    align-items: center;
-    margin: 0;
+width: 122px;
+display: flex;
+align-items: center;
+margin: 0;
 }
 @media(min-width: 769px){
   .header__img-logo {
@@ -66,8 +63,7 @@ cursor: pointer;
     }
 }
 
-.header__open {
-}
+.header__open {}
 @media(min-width: 769px){
     .header__open {
         display: none;
@@ -75,18 +71,18 @@ cursor: pointer;
 }
 
 .header__close-menu {
-    align-self: flex-end;
-    padding: 40px 0px;
-    position:absolute;
-    left: 50;
-    top: 0;
-    bottom: 50;
-    right: 0;
-   width: 50px;
+align-self: flex-end;
+padding: 40px 0px;
+position:absolute;
+left: 50;
+top: 0;
+bottom: 50;
+right: 0;
+width: 50px;
 }
 
 .header__close {
- background-color: #062424;   
+background-color: #062424;   
 }
 
 .header__open {
@@ -102,7 +98,6 @@ position: fixed;
 left: 0;
 top: 0;
 width: 100%;
-align-items: center;
 background-color:#062424;
 height: 667px;
 opacity: 0;
@@ -117,10 +112,9 @@ transition: 0.3s;
 }
 @media(min-width: 769px){
     .header__menu {
-        flex-direction: row;
         height: 200px;
+        flex-direction: row;
         justify-content:flex-end;
-        padding: 0 40px;
         opacity: 1;    
         background:none;
         font-family: "Poppins";
@@ -133,8 +127,8 @@ transition: 0.3s;
 }
 
 .header__menu li {
-    padding: 0;
-    margin-top: 30px;
+padding: 0;
+margin-top: 30px;
 }
 @media(min-width: 769px){
     .header__menu li {
@@ -144,39 +138,38 @@ transition: 0.3s;
 }
 
 a {
-    text-decoration: none;
-    color:#335940;
+text-decoration: none;
+color:#335940;
 }
 
 .header__menu a:hover {
-    background-color:#DBA4A4;
-    border-radius: 5px;
+background-color:#DBA4A4;
+border-radius: 5px;
 }
 
 .header__menu-opened {
-    opacity: 1;
-    pointer-events: all;
+opacity: 1;
+pointer-events: all;
 }
-
 
 .header__open-menu:focus:not(:focus-visible), 
 .header__close-menu:focus:not(:focus-visible){
-    outline: none;
+outline: none;
 }
 
 .section {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
+display: flex;
+justify-content: space-between;
+flex-direction: row-reverse;
 }
 
 .cont-sec-one {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 200px 0;
-    margin: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 200px 0;
+margin: 0;
 }
 @media(min-width: 769px){
     .cont-sec-one {
@@ -185,24 +178,23 @@ a {
 }
 
 .title-main {
-    font-family:"Montserrat"; 
-    font-size: 48px;
-    font-weight: 700;
-    text-align: center;
-    color: #062424;
-    margin: 0;
-    padding: 0;
+font-family:"Montserrat"; 
+font-size: 48px;
+font-weight: 700;
+text-align: center;
+color: #062424;
+margin: 0;
+padding: 0;
 }
 
-
 .text-main {
-    font-family: "Montserrat";
-    font-size: 32px;
-    font-weight: 700;
-    text-align: center;
-    color: #062424;
-    margin-top: 11px;
-    padding: 0;
+font-family: "Montserrat";
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+color: #062424;
+margin-top: 11px;
+padding: 0;
 }
 
 .section-portfolio {
@@ -214,6 +206,15 @@ height: 2300px;
 width:100%;
 margin:0;
 padding:0;
+}
+@media(min-width: 769px){
+    .section-portfolio {
+        height: 1450px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .title-port {
@@ -235,34 +236,40 @@ background-image: url("../img/fondo.png");
     }
 }
 
+.container {
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+}
+@media(min-width: 769px){
+    .container {
+      height: 400px;
+      width: 400px;
+    }
+}
+
 .portfolio-content {
-    width:auto;
-    height:430px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    flex-direction:column; 
+margin: 10px;
 }
 @media(min-width: 769px){
 .portfolio-content {
-display: grid;
-flex-direction: row;
-grid-template-columns:repeat(3, 1fr);
-grid-auto-rows: minmax(100px, auto);
-}
+    flex-grow:1;
+    margin:0;
+   }
 }
 
 .port-cards {
-    width: 330px;
-    height: 430px;
-    border: solid 1px #062424;
-    border-radius: 8px;
-    padding: 0 20px;
-    margin:10px;
+height: 430px;
+width: 300px;
+border: solid 3px #062424;
+border-radius: 8px;
 }
 @media(min-width: 769px){
     .port-cards {
-        margin: 40px;
+    min-width:300px;
+    min-height: 200px;
+    margin:5px;
     }
 }
 
@@ -277,6 +284,7 @@ font-family: "Poppins";
 text-align: center;
 font-size:24px;
 font-weight: 700;
+margin:0;
 }
 
 .portfolio-text {
@@ -285,6 +293,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 400;
 padding: 0 1rem;
+margin:0;
 }
 
 .portfolio-link {
@@ -298,14 +307,14 @@ margin:0;
 }
 
 .footer {
-    background-color:#062424;
-    height: 498px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 147px 89px;
+background-color:#062424;
+height: 498px;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 147px 89px;
 }
 @media(min-width: 769px){
     .footer {
@@ -317,12 +326,12 @@ margin:0;
 }
 
 .footer__imagen-logo {
-    margin:0;
+margin:0;
 }
 
 .footer__cont-redes {
-    width: 150px;
-    height: 100px;
+width: 150px;
+height: 100px;
 }
 @media(min-width:769px){
     .footer__cont-redes {

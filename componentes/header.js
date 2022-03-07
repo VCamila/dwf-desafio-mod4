@@ -1,9 +1,9 @@
 function componenteHeader(element){
-    const newComponenteHeader = document.createElement("div");
-    newComponenteHeader.querySelector(".header__cont");
+const newComponenteHeader = document.createElement("div");
+newComponenteHeader.querySelector(".header__cont");
     
-    newComponenteHeader.innerHTML = 
-    `
+newComponenteHeader.innerHTML = 
+  `
     <header class="header">
       <nav class="header__nav">
         <a href="#" class="header__nav-logo">
@@ -22,20 +22,19 @@ function componenteHeader(element){
       </ul>
     </nav>
     </header>
-    `
+  `
     
-    const menuEl = newComponenteHeader.querySelector(".header__menu");
-    const openMenuEl = newComponenteHeader.querySelector(".header__open-menu");
-    const closeMenuEl = newComponenteHeader.querySelector(".header__close-menu");
+const menuEl = newComponenteHeader.querySelector(".header__menu");
+const openMenuEl = newComponenteHeader.querySelector(".header__open-menu");
+const closeMenuEl = newComponenteHeader.querySelector(".header__close-menu");
     
-    function toggleMenu(){
+  function toggleMenu(){
         menuEl.classList.toggle("header__menu-opened");
     }
     
-    openMenuEl.addEventListener("click", toggleMenu);
-    closeMenuEl.addEventListener("click", toggleMenu);
+  openMenuEl.addEventListener("click", toggleMenu);
+  closeMenuEl.addEventListener("click", toggleMenu);
     
     
-    element.appendChild(newComponenteHeader);
-    
+element.appendChild(newComponenteHeader);    
 }
