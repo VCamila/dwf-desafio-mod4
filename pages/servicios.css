@@ -10,10 +10,15 @@ font-family: "Montserrat";
 .header {
 height:100px;
 width: 100%;
-background-image: url("../img/fondo.png");
-background-attachment:fixed;
-background-repeat: no-repeat;
-background-size: cover;
+background-image:url("../img/fondo\ \(1\).png");
+    background-attachment:fixed;
+    background-image: no-repeat;
+    background-image: center;
+    /*background-size: cover;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 margin:0;
 padding:0;
 }
@@ -202,19 +207,20 @@ padding: 0;
 font-family: "Montserrat";
 font-size: 48px;
 font-weight: 700;
+display: flex;
 text-align: center;
+align-items: center;
+justify-content: center;
 background-color: none;
 margin:0;
 padding:60px 0;
-background-image: url("../img/fondo.png");
+background-color: #062424;
+color: #F4F4F4;
 }
 @media(min-width:769px){
     .title-service {
-        height: 300px;
-        padding:60px 0px;
+        height: 100px;
         text-align: center;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
     }
 }
 
@@ -223,9 +229,14 @@ height: 1200px;
 width: 100%;
 margin:0;
 padding:0;
-background-image: url("../img/fondo.png");
-background-attachment: fixed;
-background-repeat: no-repeat;
+background-color:#f4f4f4;
+background-image:url("../img/fondo\ \(1\).png");
+background-attachment:fixed;
+background-image: no-repeat;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 background-size: cover;
 display: grid;
 flex-direction: column;

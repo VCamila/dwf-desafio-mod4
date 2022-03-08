@@ -10,15 +10,11 @@ font-family: "Montserrat";
 .header {
 height:150px;
 width: 100%;
-background-image: url("../img/fondo.png");
-background-attachment:fixed;
-background-repeat: no-repeat;
-background-size: cover;
+background-color: #062424;
 }
 @media(min-width: 769px){
     .header {
         height: 200px;
-        background-size: 100% 100%;
     }
 }
 
@@ -138,7 +134,7 @@ margin-top: 30px;
 
 a {
 text-decoration: none;
-color:#335940;
+color:#f4f4f4;
 }
 
 .header__menu a:hover {
@@ -199,9 +195,12 @@ padding: 0;
 .form__section {
 height: 660px;
 width: 100%;
-background-image: url("../img/fondo.png");
-background-attachment:fixed;
-background-repeat: no-repeat;
+background-image:url("../img/fondo\ \(1\).png");
+background-image: no-repeat;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 background-size: cover;
 color:#062424;
 border: double 3px #062424;

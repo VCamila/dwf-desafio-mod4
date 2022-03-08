@@ -3,7 +3,7 @@
 }
 
 .section-portfolio {
-background-image: url("../img/fondo.png");
+/*background-image: url("../img/fondo.png");*/
 background-repeat:no-repeat;
 background-size: cover;
 background-attachment:fixed;
@@ -28,14 +28,17 @@ font-family: "Montserrat";
 font-size:48px;
 font-weight: 700;
 text-align: center;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
 padding: 10px;
-background-image: url("../img/fondo.png");
+background-color: #062424;
+color:#f4fafa;
 }
 @media(min-width: 769px){
     .title-port {
-        height: 300px;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
+        height: 100px;
         text-align: center;
         padding: 60px 0;
     }
