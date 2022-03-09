@@ -4,7 +4,8 @@ newComponenteForm.querySelector(".form__cont");
     
 newComponenteForm.innerHTML = 
  `
-    <section class="form__section">
+ <section class="form__section">
+ <div class="container__form"> 
       <div class="form__cont">   
       <h1 class="form__title"> ESCRIBIME </h1>
          </div>
@@ -34,32 +35,30 @@ formEvent();
 }
 
 function formEvent(){
-const newComponenteForm = document.querySelector(".form__cont");
+const newComponenteForm = document.querySelector(".form__contact");
 newComponenteForm.addEventListener("submit", function(event) {
    event.preventDefault();
 
    const data = new FormData(event.target);
    const object = Object.fromEntries(data.entries());
-   //console.log(object);
 
-  const mensaje = `
-    user: ${object.name}
-    email: ${object.email}
-    mensaje: ${object.message}
-  `;
+   const mensaje = `
+   user: ${object.name}
+   email : ${object.email}
+   mensaje: ${object.message}
+   `;
 
   fetch("https://apx-api.vercel.app/api/utils/dwf", {
       method: "POST",
-
       headers: {"content-type": "application/json"},
       body: JSON.stringify({
-          to: "camilavazquezvazquez2014@outlook.com",
-          message: mensaje,
+       to: "camilavazquezvazquez2014@outlook.com",
+       message: mensaje,
       })
-  })
-.then(()=> {
-    console.log("soy el mensaje")
-    alert("Mensaje enviado");
+})
+.then(() => {
+  console.log("Soy el mensaje");
+  alert("Mensaje enviado");
 })
 .catch(() => {
   alert("Ha ocurrido un error");

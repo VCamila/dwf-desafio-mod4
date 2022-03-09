@@ -6,7 +6,7 @@ newComponenteHeader.innerHTML =
   `
     <header class="header">
       <nav class="header__nav">
-        <a href="#" class="header__nav-logo">
+        <a href="./index.html" class="header__nav-logo">
           <img src="./img/logo.png" class="header__img-logo" alt=""/>
         </a>
         <button class="header__open-menu" aria-label="Abrir menú">
@@ -27,13 +27,13 @@ newComponenteHeader.innerHTML =
 const menuEl = newComponenteHeader.querySelector(".header__menu");
 const openMenuEl = newComponenteHeader.querySelector(".header__open-menu");
 const closeMenuEl = newComponenteHeader.querySelector(".header__close-menu");
-    
-  function toggleMenu(){
+
+function toggleMenu(){
         menuEl.classList.toggle("header__menu-opened");
-    }
-    
-  openMenuEl.addEventListener("click", toggleMenu);
-  closeMenuEl.addEventListener("click", toggleMenu);
+}  
+
+openMenuEl.addEventListener("click", toggleMenu);
+closeMenuEl.addEventListener("click", toggleMenu);
     
     
 element.appendChild(newComponenteHeader);    

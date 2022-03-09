@@ -24,15 +24,30 @@ color: #F4F4F4;
 }
 
 .section-three {
-height: 1375px;
+height: 1200px;
 width: 100%;
-margin: 0;
-padding: 0;
-background-color:#bbad95;
+margin:0;
+padding:0;
+background-color:#f4f4f4;
+background-image:url("../img/fondo\ \(1\).png");
+background-attachment:fixed;
+background-image: no-repeat;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+display: grid;
+align-items: center;
+justify-content: center;
+gap: 10px;
+border: double 3px #062424;
+border-radius:5px;
 }
 @media(min-width: 769px){
     .section-three {
-        height: 100px;
+        height: 604px;
+        display: flex;
     }
 }
 
@@ -42,42 +57,32 @@ font-size: 32px;
 font-weight: 700;
 text-align: center;
 margin: 0;
-padding: 70px 52px;
+padding: 0;
 }
 
-.subcontenedor-sec-tres {
-display: grid;
-grid-template-rows: 1fr 1fr 1fr;
-gap:10px;
-justify-content: center;
-align-items: center;   
+.container-service {
+    margin:0;
 }
 @media(min-width: 769px){
-    .subcontenedor-sec-tres {
-       display: flex;
-        height:600px;
+    .container-service {
+     height:450px;
+     flex-grow:1;
+     flex-wrap: wrap;
  }
 }
 
-.img-sec-tres {}
-@media(min-width: 769px){
-    .img-sec-tres {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.img-sec-tres {
+display: flex;
+align-items: center;
+justify-content: center;
+margin:0;
+padding:0;
 }
 
-.imagen-serv {
-width: 138px;
-max-height: 128px;
-margin-left: 118px;
-}
-@media(min-width: 769px){
-    .imagen-serv {
-        margin:0;
-        padding: 0;
-    }
+
+.imagen {
+max-width: 290px;
+max-height: 170px;
 }
 
 .title-serv-tecnico {
@@ -96,17 +101,15 @@ text-align: center;
 padding: 0 56px;
 margin: 0;
 }
-
-.imagen-aparatos-aud {
-width: 138px;
-height: 128px;
-margin-left: 118px;
-}
 @media(min-width: 769px){
-    .imagen-aparatos-aud {
-    margin: 0;
-    padding: 0;
+    .parrafo-serv-tec {
+        padding: 0;
     }
+}
+
+.imagen-aparatos-aud{
+max-width: 290px;
+max-height: 170px;
 }
 
 .title-proveedor {
@@ -125,17 +128,15 @@ text-align: center;
 padding: 0 56px;
 margin: 0;
 }
-
-.imagen-accesorios {
-width: 138px;
-height: 128px;
-margin-left: 118px;
-}
 @media(min-width: 769px){
-    .imagen-accesorios {
-        margin:0;
+    .parrafo-aparatos{
         padding: 0;
     }
+}
+
+.imagen-accesorios {
+max-width: 290px;
+max-height: 170px;
 }
 
 .title-accesorios {
@@ -153,4 +154,9 @@ font-weight: 400;
 text-align: center;
 padding: 0 56px;
 margin: 0;
+}
+@media(min-width: 769px){
+    .parrafo-accesorios {
+        padding: 0;
+    }
 }
