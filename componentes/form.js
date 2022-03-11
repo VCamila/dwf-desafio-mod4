@@ -8,19 +8,19 @@ newComponenteForm.innerHTML =
  <div class="container__form"> 
       <div class="form__cont">   
       <h1 class="form__title"> ESCRIBIME </h1>
-         </div>
+        </div>
          <form class="form__contact">
+          <label for="">
+            <h3 class="form__label"> NOMBRE</h3>
+              <input type="text" name="nombre" class="form__input"/>
+           </label>  
             <label for="">
-                <h3 class="form__label"> NOMBRE</h3>
-                <input type="type" class="form__input"/>
-            </label>  
+            <h3 class="form__label"> EMAIL</h3>
+             <input type="email" name="email" class="form__input"/>
+           </label>
           <label for="">
-              <h3 class="form__label"> EMAIL</h3>
-              <input type="text" class="form__input"/>
-          </label>
-          <label for="">
-              <h3 class="form__label"> Mensaje</h3>
-              <textarea class="form__input-textarea"></textarea>
+          <h3 class="form__label"> Mensaje</h3>
+          <textarea class="form__input-textarea" name="mensaje"></textarea>
           </label>
           <div class="form__submit-cont">
               <button class="form__submit-button"> Enviar</button>
