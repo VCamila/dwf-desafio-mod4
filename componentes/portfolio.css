@@ -7,14 +7,13 @@
 background-repeat:no-repeat;
 background-size: cover;
 background-attachment:fixed;
-height: 2300px;
+min-height:100vh;
 width:100%;
 margin:0;
 padding:0;
 }
 @media(min-width: 769px){
     .section-portfolio {
-        height: 1450px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -52,8 +51,8 @@ justify-content: center;
 }
 @media(min-width: 769px){
     .container {
-          height: 300px;
-          width: 400px;
+          min-height: 300px;
+          min-width: 400px;
     }
 }
     
